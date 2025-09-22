@@ -1,0 +1,4 @@
+# Nmap 7.95 scan initiated Mon Sep 22 20:22:02 2025 as: /usr/lib/nmap/nmap -sS -sV -p- -oA scans/host_full 192.168.0.175
+Host: 192.168.0.175 ()	Status: Up
+Host: 192.168.0.175 ()	Ports: 1716/open/tcp//tcpwrapped///, 35567/open/tcp//http//IDentifier NameTracer Pro httpd/, 37750/open/tcp//http//Apache httpd 2.4.63 ((Debian))/	Ignored State: closed (65532)
+# Nmap done at Mon Sep 22 20:22:15 2025 -- 1 IP address (1 host up) scanned in 13.17 seconds

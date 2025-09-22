@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Mon Sep 22 20:22:02 2025 as: /usr/lib/nmap/nmap -sS -sV -p- -oA scans/host_full 192.168.0.175 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -sS -sV -p- -oA scans/host_full 192.168.0.175" start="1758552722" startstr="Mon Sep 22 20:22:02 2025" version="7.95" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1758552722" endtime="1758552735"><status state="up" reason="localhost-response" reason_ttl="0"/>
+<address addr="192.168.0.175" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65532">
+<extrareasons reason="reset" count="65532" proto="tcp" ports="1-1715,1717-35566,35568-37749,37751-65535"/>
+</extraports>
+<port protocol="tcp" portid="1716"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="35567"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="IDentifier NameTracer Pro httpd" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="37750"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="Apache httpd" version="2.4.63" extrainfo="(Debian)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.63</cpe></service></port>
+</ports>
+<times srtt="8" rttvar="6" to="100000"/>
+</host>
+<runstats><finished time="1758552735" timestr="Mon Sep 22 20:22:15 2025" summary="Nmap done at Mon Sep 22 20:22:15 2025; 1 IP address (1 host up) scanned in 13.17 seconds" elapsed="13.17" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

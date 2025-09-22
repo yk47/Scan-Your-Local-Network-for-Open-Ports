@@ -1,0 +1,11 @@
+# Nmap 7.95 scan initiated Mon Sep 22 20:22:02 2025 as: /usr/lib/nmap/nmap -sS -sV -p- -oA scans/host_full 192.168.0.175
+Nmap scan report for 192.168.0.175
+Host is up (0.0000080s latency).
+Not shown: 65532 closed tcp ports (reset)
+PORT      STATE SERVICE    VERSION
+1716/tcp  open  tcpwrapped
+35567/tcp open  http       IDentifier NameTracer Pro httpd
+37750/tcp open  http       Apache httpd 2.4.63 ((Debian))
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Sep 22 20:22:15 2025 -- 1 IP address (1 host up) scanned in 13.17 seconds

@@ -17,13 +17,23 @@ Scan-Your-Local-Network-for-Open-Ports/
 │ ├── 02-ping-sweep.png
 │ ├── 03-top-ports.png
 │ ├── 04-full-scan.png
-| ├── 05-machine-vuln.png
-| ├── 06-nmap-vuln.png
-| ├── 07-wireshark-port-scan-command.png
+│ ├── 05-machine-vuln.png
+│ ├── 06-nmap-vuln.png
+│ ├── 07-wireshark-port-scan-command.png
 │ └── 08-wireshark-traffic-capture.png
 └── scans/
 ├── host_full.nmap
 └── host_full.xml
 ```
+
+### Find your IP & subnet
+```bash
+# Linux/macOS
+ip addr show
+# Or
+ip a
+```
+
+
 
 
